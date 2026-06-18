@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        body {
+            background-color: #E8ECED;
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            display: inline-block;
+            background-image: url("images/christus.webp");
+            position: relative;
+            height: 800px;
+            width: 1000px;
+            border-radius: 25px;
+            border-width: medium;
+            border: 8px solid #03001d;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .title {
+            text-align: center;
+            font-family: Arial;
+            color: white;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-family: Arial;
+            color: white;
+        }
+
+        .top_row {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+            gap: 50px;
+        }
+
+        .bottom_rows {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 0 40px;
+            column-gap: 40px;
+            row-gap: 40px;
+            justify-items: center;
+        }
+
+        .circle {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 8px solid white;
+            object-fit: cover;
+        }
+
+        .circle:hover {
+            border-color: #00bfff;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+    <div class="card">
+        <div class="title">
+            <h1>First Presidency</h1>
+        </div>
+        <div class="top_row">
+            <img class="circle" src="images/eyring.webp" alt="Henry B. Eyring">
+            <img class="circle" src="images/oaks.webp" alt="Dallin H. Oaks">
+            <img class="circle" src="images/christofferson.webp" alt="D. Todd Christofferson">
+        </div>
+        <div class="subtitle">
+            <h2>Quorum of the Twelve Apostles</h2>
+        </div>
+        <div class="bottom_rows">
+            <img class="circle" src="images/uchtdorf.webp" alt="Dieter F. Utchdorf">
+            <img class="circle" src="images/bednar.webp" alt="David A. Bednar">
+            <img class="circle" src="images/cook.webp" alt="Quentin L. Cook">
+            <img class="circle" src="images/anderson.webp" alt="Neil L. Andersen">
+            <img class="circle" src="images/rasband.webp" alt="Ronald A. Rasband">
+            <img class="circle" src="images/stevenson.webp" alt="Gary E. Stevenson">
+            <img class="circle" src="images/renlund.webp" alt="Dale G. Renlund">
+            <img class="circle" src="images/gong.webp" alt="Gerrit W. Gong">
+            <img class="circle" src="images/soares.webp" alt="Ulisses Soares">
+            <img class="circle" src="images/kearon.webp" alt="Patrick Kearon">
+            <img class="circle" src="images/causse.webp" alt="Gerald Causse">
+            <img class="circle" src="images/gilbert.webp" alt="Clark G. Gilbert">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* Add your CSS here to style your father's day page */
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(163, 55, 5);
+    padding: 30px;
+    font-family: sans-serif, serif;
+    font-size: 30px;
+    border: 4px solid black;
+}
+
+li:hover {
+    background-color: rgb(206, 157, 12);
+    color: white;
+}
+
+body {
+    background-color: rgb(198, 180, 156);
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+/* li {
+    text-align: center;
+} */
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif, serif;
+}
+
+h2 {
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: sans-serif, serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    border: 4px solid black;
+    padding: 5px;
+    background-color: rgb(163, 55, 5);
+    column-gap: 20px;
+}

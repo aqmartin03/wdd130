@@ -117,3 +117,13 @@ footer {
     text-align: center;
     margin-bottom: 50px;
 }
+
+#client_report p, #lead_dev_report p, #jun_dev_report p, #generals p {
+    margin: auto;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+#client_report h2, #lead_dev_report h2, #jun_dev_report h2, #generals h2 {
+    color: white;
+}
